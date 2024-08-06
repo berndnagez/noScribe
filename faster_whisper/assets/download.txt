@@ -1,0 +1,1 @@
+download file from here into this folder: https://github.com/snakers4/silero-vad/blob/master/src/silero_vad/data/silero_vad.onnx

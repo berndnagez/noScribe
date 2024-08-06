@@ -7,7 +7,7 @@ noScribe_a = Analysis(
     ['noScribe.py'],
     pathex=[],
     binaries=[],
-    datas=[('trans', 'trans/'), ('noScribeLogo.png', '.'), ('graphic_sw.png', '.'), ('ffmpeg', '.'), ('models/faster-whisper-small', 'models/faster-whisper-small/'), ('models/faster-whisper-large-v2', 'models/faster-whisper-large-v2/'), ('prompt.yml', '.'), ('LICENSE.txt', '.'), ('README.md', '.')],
+    datas=[('faster_whisper/assets/silero_vad.onnx', 'faster_whisper/assets/'), ('trans', 'trans/'), ('noScribeLogo.png', '.'), ('graphic_sw.png', '.'), ('ffmpeg-linux-x86_64', '.'), ('models/faster-whisper-small', 'models/faster-whisper-small/'), ('models/faster-whisper-large-v2', 'models/faster-whisper-large-v2/'), ('prompt.yml', '.'), ('LICENSE.txt', '.'), ('README.md', '.')],
     hiddenimports=['PIL', 'PIL._imagingtk', 'PIL._tkinter_finder'],
     hookspath=[],
     hooksconfig={},
